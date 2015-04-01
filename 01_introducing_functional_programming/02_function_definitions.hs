@@ -5,4 +5,8 @@ square n = n * n -- function definition
 
 -- function composition
 squareTwice :: Integer -> Integer
-squareTwice n = square . square
+squareTwice = square . square
+
+-- double 
+double :: Integer -> Integer
+double n = 2 * n
