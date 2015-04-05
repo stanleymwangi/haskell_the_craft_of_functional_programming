@@ -14,3 +14,5 @@ test_flipH = flipH (flipV horse) == horse
 prop_rotate :: Picture -> Bool
 prop_rotate pic = flipV (flipH pic) == flipH (flipV pic)
 
+prop_flipV :: Picture -> Bool
+prop_flipV pic = flipV (flipV pic) == pic
