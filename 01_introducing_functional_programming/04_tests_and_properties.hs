@@ -16,3 +16,6 @@ prop_rotate pic = flipV (flipH pic) == flipH (flipV pic)
 
 prop_flipV :: Picture -> Bool
 prop_flipV pic = flipV (flipV pic) == pic
+
+prop_flipH :: Picture -> Bool
+prop_flipH pic == flipH (flipV pic) == pic
