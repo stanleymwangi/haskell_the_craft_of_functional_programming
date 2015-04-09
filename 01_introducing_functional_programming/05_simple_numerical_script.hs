@@ -25,3 +25,12 @@ double n = 2*n
 
 example :: Integer
 example = double (size - square(2+2))
+
+-- The function doubles then squares the input
+doubleSquare :: Integer -> Integer
+doubleSquare n = square (2 * n)
+
+-- The function squares the input and then doubles it
+squareDouble :: Integer -> Integer
+squareDouble n = 2 * square n
+
