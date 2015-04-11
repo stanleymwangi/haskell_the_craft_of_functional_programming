@@ -1,0 +1,2 @@
+module UsePictures where
+import Pictures
