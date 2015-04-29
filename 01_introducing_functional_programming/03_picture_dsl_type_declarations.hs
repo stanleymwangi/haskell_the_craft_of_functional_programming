@@ -14,3 +14,11 @@ scale :: Picture -> Integer -> Picture
 horseChanged = horse `above` (flipH horse)
 horseBig = scale (horseChanged) (2 ^ 5)
 mirror pic = pic 'beside' (flipV pic)
+
+-- alternative constructs for pictures using List based dsl
+line :: [Char]
+picture :: [line]
+flipH = reverse 
+flipV = map reverse
+above = (++)
+beside = zipWith (++)
