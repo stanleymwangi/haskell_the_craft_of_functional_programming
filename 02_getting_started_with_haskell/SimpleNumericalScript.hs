@@ -3,7 +3,7 @@
        Stanley Mwangi, April 2015
 ############################################################################## -}
 
-module simple_numerical_script where
+module SimpleNumericalScript where
 
 -- The value size is an integer (Integer), defined to be
 -- the sum of twelve and thirteen
@@ -24,7 +24,7 @@ double n = 2*n
 -- An example using double, square and size
 
 example :: Integer
-example = double (size - square(2+2))
+example = double (size - square (2+2))
 
 -- The function doubles then squares the input
 doubleSquare :: Integer -> Integer
