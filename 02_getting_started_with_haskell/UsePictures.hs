@@ -1,2 +1,2 @@
 module UsePictures where -- module declaration
-import Pictures
+import Pictures -- example statement of importing definitions from other modules
